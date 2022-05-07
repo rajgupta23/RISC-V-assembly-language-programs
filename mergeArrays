@@ -1,5 +1,7 @@
 #Raj
 #2020CSB1116
+#Merging elements of two sorted arrays stored at whose starting addresses are given in registers x11 and x12(ie, self assigned)
+#final sorted array will be stored at 0x10001000 in memory
 # Notes and assumption
 # 1.Just paste the first array space saparated in arr1 and its size in n1, same goes for arr2 and n2.
 # 2.Since final arr is of int (4Bytes) so when you look into the memory look as 0x10001000,0x10001004 ...
