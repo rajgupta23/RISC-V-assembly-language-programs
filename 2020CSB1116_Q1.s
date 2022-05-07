@@ -1,5 +1,13 @@
 #Raj
 #2020CSB1116
+#supose you want to create a queue data structure at memory location 0x10001000 using 3 procedures:
+#Enqueue()
+#Dequeue()
+#Size()
+#Suppose the sequence of operations given as a string: E 20 E 12 E 9 D D S E 23.......
+#E is enqueuing the number in the queue and D is removing a number from the queue.
+#The queue should be stored at memory location: 0x10001000.
+#Whenever S is called in the sequence of operations the size of the queue computes and stored at 0x10005000 or at a register of your choice.
 #Notes and assumptions --->
 #1 . E,S,D are capital and case sensetive please make sure the string must have only caps
 #2. I have made sure that whenever Queue is empty ISA just skip that
