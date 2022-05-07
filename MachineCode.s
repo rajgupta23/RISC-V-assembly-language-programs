@@ -1,5 +1,7 @@
 #Raj
 #2020CSB1116
+#Reading machine code and storing its various parts such as its opcode, source registers, destination register and immediate field etc for various types of instructions.
+# values will be stored at 0x10001000 in memory.
 #Notes and Assumption --->
 #1. I also appended the 0 of imm[0] in case of beq instructions.
 #2. You can check for any one of the given five type of instructions just paste the machine code in line 8 in place of 0x005180b3 (make sure to write 0x too)
