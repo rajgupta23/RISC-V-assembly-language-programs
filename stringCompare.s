@@ -1,5 +1,6 @@
 #Raj
 #2020CSB1116
+#Two strings are stored at location 0x10001000 and 0x10002000 respectively. A function that compares these strings and places the total number of characters that are different at register x7
 # Notes and Assumptions ----->
 # 1. for checking your own test cases juts paste both the string in line 7 and 8 along with their size
 # 2. Make sure both have same size (as given in question)
